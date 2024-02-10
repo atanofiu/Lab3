@@ -1,0 +1,9 @@
+#!/usr/bin/env python3 
+# Author ID: Anofiu Abiola
+
+def write_text_file_with_name():
+    name = input("Please enter your name: ")
+    with open("About Me.txt", "w") as file:
+        file.write("My name is: " + name)
+
+write_text_file_with_name()
