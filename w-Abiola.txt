@@ -3,7 +3,7 @@
 
 def write_text_file_with_name():
     name = input("Please enter your name: ")
-    with open("About Me.txt", "w") as file:
+    with open("Abiola.txt", "w") as file:
         file.write("My name is: " + name)
 
 write_text_file_with_name()
