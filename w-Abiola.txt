@@ -7,3 +7,14 @@ def write_text_file_with_name():
         file.write("My name is: " + name)
 
 write_text_file_with_name()
+
+
+
+
+
+
+def helloWorld():
+	print(‘Hello World’)
+
+
+helloWorld()
